@@ -1,0 +1,13 @@
+name: agentscourt
+channels:
+  - defaults
+  - conda-forge
+dependencies:
+  - python=3.10
+  - pip
+  - jupyter
+  - pip:
+    - openai>=1.14.0
+    - python-dotenv>=1.0.1
+    - ipykernel
+    - pyttsx3
